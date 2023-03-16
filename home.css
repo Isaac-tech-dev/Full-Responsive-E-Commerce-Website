@@ -692,10 +692,6 @@ footer .copyright{
     filter: blur(5px);
     transform: translateX(50%);
     transition: all 1s;
-    -webkit-transform: translateX(50%);
-    -moz-transform: translateX(50%);
-    -ms-transform: translateX(50%);
-    -o-transform: translateX(50%);
 }
 .app-show{
     opacity: 1;
