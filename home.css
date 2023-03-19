@@ -156,6 +156,17 @@ body{
     filter: blur(0);
     transform: translateX(0);
 }
+.app-hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(50%);
+    transition: all 1s;
+}
+.app-show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
 /*HERO STOP*/
 
 /*FEATURE START*/
@@ -686,17 +697,6 @@ footer .copyright{
     width: 100%;
     height: 100%;
     border-radius: 20px;
-}
-.app-hidden{
-    opacity: 0;
-    filter: blur(5px);
-    transform: translateX(50%);
-    transition: all 1s;
-}
-.app-show{
-    opacity: 1;
-    filter: blur(0);
-    transform: translateX(0);
 }
 .feature-box:nth-child(2){
     transition-delay: 200ms;
